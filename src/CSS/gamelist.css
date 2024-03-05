@@ -1,0 +1,69 @@
+.t{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.user{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 30%;
+}
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 80px;
+    width: 80px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+
+    
+  }
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+.bigBorad{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: 30%;
+}
+.GMKboard {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10%;
+}
+
+.board-row {
+  display: flex;
+}
+
+.GMKsquare{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.player-turn{
+  margin-bottom: 10px;
+}
+.GMKBox{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 30%;
+}
